@@ -8,7 +8,7 @@ import { User } from '../../models/User';
 })
 export class UserComponent implements OnInit {
   //Properties
-  user: User;
+  user!: User;
 
   //Methods
   constructor() {}
